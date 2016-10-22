@@ -1,0 +1,84 @@
+
+.A{
+    position: relative;
+    left: 30px;
+    width: 60px;
+    height: 91px;
+    border-bottom: solid 14px #000000;
+}
+
+.A:before{
+    transform: skew(-19deg,0);
+    position: absolute;
+    content: '';
+    top: 12.5px;
+    left: 0;
+    width: 16px;
+    height: 125px;
+    background-color: #000000;
+}
+
+.A:after{
+    transform: skew(19deg,0);
+    position: absolute;
+    content: '';
+    top: 12.5px;
+    left: 45px;
+    width: 16px;
+    height: 125px;
+    background-color: #000000;
+}
+
+.C{
+    position: relative;
+    top: 12.5px;
+    left: 10px;
+    width: 84px;
+    height: 95px;
+    border-width: 15px 12px 15px 16px;
+    border-color: #000000;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.C:before{
+    transform: rotate(45deg);
+    position: absolute;
+    content: '';
+    top: 2px;
+    left: 49px;
+    background-color: #ffffff;
+    width: 90px;
+    height: 90px;
+}
+
+.R{
+    position: relative;
+    top: 12.5px;
+    left: 10px;
+    width: 60px;
+    height: 125px;
+    border-left: solid 16px #000000;
+}
+
+.R:before{
+    position: absolute;
+    content: '';
+    width: 52px;
+    height: 44px;
+    border-width: 13px 15px 13px 0;
+    border-color: #000000;
+    border-style: solid;
+    border-radius: 0 220% 220% 0/0 180% 180% 0;
+}
+
+.R:after{
+    transform: skew(32deg,0);
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 38px;
+    width: 18px;
+    height: 58px;
+    background-color: #000000;
+}
